@@ -3,11 +3,11 @@
 # Creează o variabilă numită `number` și atribuie-i valoarea `10`
 
 # CODUL TĂU VINE MAI JOS:
-
+number=10
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează valoarea variabilei `number` folosind funcția `print`
-
+print(number)
 # CODUL TĂU VINE MAI JOS:
 
 # CODUL TĂU VINE MAI SUS:
@@ -21,7 +21,7 @@
 # Acum afișează tipul variabilei `number` folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-
+print(type(number))
 # CODUL TĂU VINE MAI SUS:
 
 # Convertește variabila `number` la tipul `float` și afișează tipul variabilei `number` folosind funcția `print`
