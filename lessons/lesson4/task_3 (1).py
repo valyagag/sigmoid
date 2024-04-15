@@ -15,7 +15,8 @@ print(number)
 # Acum cere user-ului să introducă un număr și atribuie acea valoare variabilei `number` și afișeaz-o folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-
+x=input('Isert number :')
+print(x)
 # CODUL TĂU VINE MAI SUS:
 
 # Acum afișează tipul variabilei `number` folosind funcția `print`
@@ -27,19 +28,20 @@ print(type(number))
 # Convertește variabila `number` la tipul `float` și afișează tipul variabilei `number` folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-
+float_number=float(number)
 # CODUL TĂU VINE MAI SUS:
-
+print(type(float_number))
 # Convertește variabila `number` la tipul `str` și afișează tipul variabilei `number` folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-
+str_number=str(number)
 # CODUL TĂU VINE MAI SUS:
-
+print(type(str_number))
 # Convertește variabila `number` la tipul `bool` și afișează tipul variabilei `number` folosind funcția `print`
 
 # CODUL TĂU VINE MAI JOS:
-
+bool_number=bool(float_number)
+print(type(bool_number))
 # CODUL TĂU VINE MAI SUS:
 
 # Asta a fost tot pentru această sarcină
