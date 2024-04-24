@@ -74,7 +74,12 @@ else:
 # Dacă nu conține niciunul dintre ele, afișați un mesaj corespunzător.
 
 # CODUL TĂU VINE MAI JOS:
-
+if "python" in text and "java" in text:
+    print('Textul conține atât cuvântul "Python" și cuvântul "Java"')
+elif "python" in text or "java" in text:
+    print('Textul conține unul dintre cuvintele "Python" sau "Java"')
+else:
+    print('Textul nu conține niciunul dintre cuvintele "Python" sau "Java".')
 
 # CODUL TĂU VINE MAI SUS:
 
@@ -87,6 +92,21 @@ else:
 # pentru 5 - printați "Cinci"
 
 # CODUL TĂU VINE MAI JOS:
+number = int(input('intoduceti un numar de la 1 la 5'))
+print (number)
+
+if number==1:
+    print('unu')
+elif number==2:
+    print('doi')
+elif number==3:
+    print('trei')
+elif number==4:
+    print('patru')
+elif number==5:
+    print('cinci')
+else :
+    print ('numar nu este dintre 1 pina la 5')
 
 # CODUL TĂU VINE MAI SUS:
 
