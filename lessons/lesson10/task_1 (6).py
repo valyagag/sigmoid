@@ -13,7 +13,7 @@ Utilizați list comprehension.
 
 # CODUL TĂU VINE MAI JOS:
 def task_1():
-    pass
+    return [i for i in range(1, 11)]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -27,7 +27,7 @@ Utilizați list comprehension în proces
 
 # CODUL TĂU VINE MAI JOS:
 def task_2():
-    pass
+    return[i for i in range(1,11)]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -41,7 +41,7 @@ Utilizați list comprehension în proces.
 
 # CODUL TĂU VINE MAI JOS:
 def task_3():
-    pass
+    return [i for i in range(1,11) if i%2!=0]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
@@ -55,7 +55,7 @@ va returna o listă aplatizată sau altfel spus o listă cu elementele fiecărei
 
 # CODUL TĂU VINE MAI JOS:
 def task_4():
-    pass
+    return [element for sublist in matrice for element in sublist]
 # CODUL TĂU VINE MAI SUS:
 
 # VERIFICATION PROCESS
